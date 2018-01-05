@@ -1,0 +1,39 @@
+{
+"patient" : {
+"id" : 123456789,
+"age" : 50
+},
+"admission" : {
+"id" : 987654321,
+"department" : "Innere Medizin",
+"begin" : "2017-01-01",
+"end" : "2017-01-05"
+},
+"diagnoses" : [
+{
+"icd10" : ["H81.1"],
+"text" : "Benigner Lagerungsschwindel"
+},
+{
+"icd10" : ["R55"],
+"text" : "Kollaps"
+},
+{
+"icd10" : ["K92.1"],
+"text" : "Melaena"
+}],
+"procedures" : [
+{
+"mel" : ["HZ510", "HH510"],
+"text" : "Gastro- und Coloskopie"
+},
+{
+"mel" : ["ZA010"],
+"text" : "Schädel-CT"
+},
+{
+"mel" : ["ZN510"],
+"text" : "Biopsie"
+}
+]
+}
